@@ -1,0 +1,71 @@
+Script started on 2023-04-26 21:30:45-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="135" LINES="16"]
+[?2004h]0;rahul@rh-laptop: /mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[01;32mrahul@rh-laptop[00m:[01;34m/mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[00m$ [7mgit status[27mgit status
+[?2004lOn branch DataWrangler
+Your branch is ahead of 'origin/DataWrangler' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   BuildingDW.java[m
+	[31mmodified:   BuildingInterface.java[m
+	[31mmodified:   DataWranglerTests.java[m
+	[31mmodified:   Makefile[m
+	[31mmodified:   MapReaderDW.java[m
+	[31mmodified:   MapReaderInterface.java[m
+	[31mmodified:   PathDW.java[m
+	[31mmodified:   PathInterface.java[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlog[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;rahul@rh-laptop: /mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[01;32mrahul@rh-laptop[00m:[01;34m/mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[00m$ [7mgit log -1[27mgit log -1
+[?2004l[?1h=[33mcommit 4e9f7a3a92a9d49e5d4bc7bcfad2180070e47531[m[33m ([m[1;36mHEAD -> [m[1;32mDataWrangler[m[33m)[m[m
+Author: RahulHi <67343291+RahulHi@users.noreply.github.com>[m
+Date:   Wed Apr 26 21:30:20 2023 -0500[m
+[m
+    Created main Data Wrangler code.[m
+[K[?1l>[?2004h]0;rahul@rh-laptop: /mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[01;32mrahul@rh-laptop[00m:[01;34m/mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[00m$ [7mmake clean[27mmake clean
+[?2004lrm *.class
+rm: cannot remove '*.class': No such file or directory
+make: *** [Makefile:8: clean] Error 1
+[?2004h]0;rahul@rh-laptop: /mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[01;32mrahul@rh-laptop[00m:[01;34m/mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[00m$ [7mls[27mls
+[?2004l[0m[01;32mBuildingDW.java[0m         [01;32mDataWranglerTests.java[0m  [01;32mMapReaderDW.java[0m         [01;32mPathDW.java[0m         [01;32mjunit5.jar[0m
+[01;32mBuildingInterface.java[0m  [01;32mMakefile[0m                [01;32mMapReaderInterface.java[0m  [01;32mPathInterface.java[0m  [01;32mlog[0m
+[?2004h]0;rahul@rh-laptop: /mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[01;32mrahul@rh-laptop[00m:[01;34m/mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[00m$ [7mmake runTests[27mmake runTests
+[?2004ljavac -cp .:junit5.jar DataWranglerTests.java
+java -jar junit5.jar -cp . --select-class=DataWranglerTests
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+[36m╷[0m
+[36m├─[0m [36mJUnit Jupiter[0m [32m✔[0m
+[36m│  └─[0m [36mDataWranglerTests[0m [32m✔[0m
+[36m│     ├─[0m [34mtestDuplicateBuildings()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestSimpleMap()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestComplexMap()[0m [32m✔[0m
+[36m│     ├─[0m [34mtestNoOutgoingPaths()[0m [32m✔[0m
+[36m│     └─[0m [34mtestBadFormat()[0m [32m✔[0m
+[36m├─[0m [36mJUnit Vintage[0m [32m✔[0m
+[36m└─[0m [36mJUnit Platform Suite[0m [32m✔[0m
+
+Test run finished after 202 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         0 tests failed          ]
+
+[?2004h]0;rahul@rh-laptop: /mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[01;32mrahul@rh-laptop[00m:[01;34m/mnt/c/Users/rahul/Documents/AppDevelopment/CS400Projects/Project3_CK_red[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2023-04-26 21:32:19-05:00 [COMMAND_EXIT_CODE="0"]
